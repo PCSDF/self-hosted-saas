@@ -4,16 +4,6 @@ Curated list of self-hosted open-source SaaS &amp; tools to deploy on your own s
 
 > Curated list of **self-hosted open-source SaaS applications** you can deploy on your own server, VPS, or homelab. Perfect for developers, system admins, and cybersecurity enthusiasts.
 
-<p align="center">
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=yourusername.self-hosted-saas)
-![GitHub stars](https://img.shields.io/github/stars/yourusername/self-hosted-saas?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/self-hosted-saas?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/self-hosted-saas)
-![License](https://img.shields.io/github/license/yourusername/self-hosted-saas)
-</p>
-
----
-
 # 📚 Table of Contents
 
 - [VPN](#-vpn)
