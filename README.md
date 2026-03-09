@@ -46,201 +46,431 @@ Curated list of self-hosted open-source SaaS &amp; tools to deploy on your own s
 - [Container Management](#-container-management)
 
 ---
-🙊 Deploy your own VPN
-OpenVPN — full-featured open source VPN solution. (Digital Ocean tutorial)
-dockovpn.io — stateless OpenVPN dockerized server which doesn't require persistent storage.
-WireGuard — faster, simpler, leaner, and more useful than IPsec. It intends to be considerably more performant than OpenVPN. (Digital Ocean tutorial)
-Algo VPN — set of Ansible scripts that simplify the setup of a personal Wireguard and IPsec VPN.
-🎧 Deploy your own Music streaming service
-Ampache — web based audio/video streaming application and file manager.
-Madsonic — web-based media library and media streamer with jukebox functionality.
-Mopidy — extensible music server.
-Koel — simple web-based personal audio streaming service. (GitHub)
-Funkwhale — web-based music library with Airsonic compatibility. (GitLab)
-AzuraCast — web radio management suite, with a modern web app. (GitHub)
-Black Candy — music streaming server with web UI and iOS/Android apps.
-Audiobookshelf — audiobook and podcast server. (GitHub)
-📷 Deploy your own Photo hosting
-Immich — high performance photo and video solution with familiar UI. (GitHub)
-Chevereto — powerful and fast image hosting script that allows you to create your very own image hosting website in just minutes.
-PhotoPrism — personal photo management with Ai classification and lots of features. (GitHub)
-Lychee — upload, manage and share photos like from a native application. (GitHub)
-Photo-Stream — super-simple, jekyll-based, self-hosted photo stream.
-Piwigo — PHP image gallery. (GitHub)
-Pinry — your own Pinterest with boards and tags. (GitHub)
-📚 Deploy your own eBooks catalog
-Calibre — e-book manager, packed with all you need features (including server).
-COPS — Calibre OPDS and HTML server. (Urown tutorial)
-Calibre-Web — web UI for Calibre database.
-📄 Deploy your own Google Docs
-Collabora — LibreOffice in the cloud with collaboration features. (tutorial for OwnCloud)
-ONLYOFFICE CE — private cloud office with collaboration features. CE version distributed as Docker image. (GitHub)
-SeaTable — your own Airtable where spreadsheets meets database.
-Baserow — your own API-focused Airtable with plugins.
-Nocodb — Airtable alternative could be based on top of MySQL, PostgreSQL, SQL Server, SQLite & MariaDB with solid GUI (GitHub)
-🎬 Deploy your own Netflix
-Jellyfin — media system that puts you in control of managing and streaming your media. (GitHub)
-📝 Deploy your own Notes
-CodiMD — realtime collaborative markdown notes.
-Standard Notes — clean and simple web app with E2E encryption, extensions and clients. How to self-host tutorial
-TinyList — your own Google Keep. Simple and clean. (GitHub)
-Leanote — your own Evernote. (GitHub)
-Bangle.io — web only WYSIWYG note taking app that saves notes locally in markdown. (GitHub)
-Memos — memo hub with knowledge management and socialization. (GitHub)
-🏷 Deploy your own Bookmarks service
-Unmark — application for bookmarks. (Tutplus tutorial from 2014)
-Bookmarks — self-hosted bookmarking app that can import bookmarks from delicious and chrome.
-xBrowserSync — secure and anonymous bookmarking server with browser plugins and mobile app. (GitHub)
-Nextcloud Bookmarks — bookmark app for Nextcloud with browser plugins, mobile and desktop apps. (GitHub)
-LinkAce — bookmark archive with tags, lists and sharing features. (GitHub)
-Linkding — simple bookmarks with tags and neat UI.
-Benotes — bookmark taking web app with additional note taking feature.
-Briefkasten — bookmark web app with REST API, OAuth, drag-n-drop and browser extension.
-Hoarder — bookmark-everything app with AI-based tagging and full text search. (GitHub)
-Readeck — selfhosted bookmarking app with the modern UI, smart features and browser extension. (Codeberg)
-🔤 Deploy your own URL shortener
-Yourls — Your Own URL Shortener.
-Kutt — modern URL shortener with support for custom domains. (GitHub)
-Delta — a file uploader and URL shortener packed with features and CLI.
-Shlink — URL shortener with neat UI, API and analytics. (GitHub).
-CLI based approach
-🗓 Deploy your own Calendar
-Radicale — CalDAV and CardDAV Server made with Python.
-Sabre — CardDAV, CalDAV and WebDAV server made with PHP.
-Calendar Server — Calendar and contacts server made by Apple.
-🗄 Deploy your own Cloud storage
-OwnCloud — personal cloud which runs on your own server. (tutorial)
-Nextcloud — enhanced OwnCloud fork with tons of additional services like calendars, mail, contacts, video calls, etc (GitHub).
-Syncthing — continuous file synchronization program.
-MinIO — object storage server compatible with Amazon S3 APIs.
-Teedy — lightweight document management system with workflows (GitHub)
-Filestash — easily turn popular backends like SFTP, S3, GitHub etc into web-based file manager (GitHub)
-🕸 Deploy your own DNS
-Unbound — validating, recursive, caching DNS resolver. (Urown tutorial)
-🛑 Deploy your own AdBlock
-Pi-hole — network-wide ad blocking software you can deploy to local Raspberry Pi or always-free instance of Google Cloud. Yes, you've got the irony right. (GitHub)
-AdGuard Home — network-wide DNS resolver with encryption for blocking ads & tracking. (GitHub)
-✉️ Deploy your own Email server
-Mailu — dockerized, secured mail suite which is easy to install and maintain.
-Mailcow — dockerized mail server suite based on Postfix, Dovecot, Nginx, PHP, MariaDB, Rspamd and more. (GitHub)
-iRedMail — mail server suite with vast of options.
-Mail-in-a-Box — another mail server suite based on Postfix, Dovecot, Z-Push, Roundcube, Nextcloud, Apache SpamAssassin, Postgrey, Nginx. (GitHub)
-Roundcube — browser-based IMAP client with an application-like user interface.
-Postal — a fully featured mail server with web UI. (GitHub)
-Maddy — a composable all-in-one mail server written in Golang. (GitHub)
-💬 Deploy your own Chat server
-Prosody IM — modern XMPP communication server. (Urown tutorial)
-Zulip — team chat which combined the immediacy of real-time chat with an email threading model. (GitHub)
-Rocket Chat — WebChat platform. (GitHub)
-Mattermost — private cloud, Slack-alternative. (GitHub)
-Mumble — low-latency, high quality voice chat for gaming. (GitHub)
-Matrix — ecosystem for open federated Instant Messaging and VoIP. (GitHub)
-Riot — multi platform chat app based on Matrix protocol.
-📹 Deploy your own Video calls
-Jitsi — Multi-platform open-source video conferencing. (GitHub)
-Nextcloud Talk — chat or video calls via web or mobile apps, including screen sharing and webinar functionality. (GitHub)
-✍️ Deploy your own Publishing system
-Jekyll — static websites and blogs. (GitHub)
-Hugo — static site generators with amazing speed.
-Ghost — headless Node.js CMS for professional publishing.
-Gatsby — React-based framework that helps developers build fast websites and apps. (GitHub)
-🗣 Deploy your own Disqus comments
-Isso — lightweight commenting server. It aims to be a drop-in replacement for Disqus. (GitHub)
-Remark42 — self-hosted, lightweight, and simple commenting system, which doesn’t spy on users (GitHub)
-Staticman — commenting server for static sites which stores all user generated content into your own repository. (GitHub)
-Code It Yourself approach by Tania Rascia
-📈 Deploy your own Web analytics engine
-Ackee — self-hosted, Node.js based analytics tool for those who care about privacy.
-Matomo — open analytics platform.
-GoAccess — real-time web log analyzer and interactive viewer that runs in a terminal or through browser. (GitHub)
-Fathom Lite — Simple, privacy-focused website analytics.
-Shynet — Privacy-friendly, detailed web analytics that works without cookies or JS.
-GoatCounter — Easy analytics without tracking.
-🔍 Deploy your own Google search
-Whoogle — Deploy your own search engine that privately uses Google results.
-📦 Deploy your own Cloud backup
-Duplicity — backs up directories by producing encrypted tar-format volumes and uploading them to a remote or local file server.
-Borg — deduplicating archiver with compression and encryption.
-ElkarBackup — backup solution based on RSync/RSnapshot.
-Restic — encrypted, deduplicated & simple backups with an easy-to-use CLI. (GitHub)
-🔗 Deploy your own Web archive
-ArchiveBox — self-hosted web archive. (GitHub)
-Archivy — knowledge repository that allows you to preserve content. (GitHub)
-🍕 Deploy your own file sharing server
-Send — simple, private file sharing with encryption. A Firefox Send fork.
-FilePizza — peer-to-peer file transfers with only browser.
-Lufi — convenient file sharing with E2E encryption.
-Linx — simple file/code/media sharing website.
-XBackBone — PHP file manager that support the instant sharing tools like ShareX, uPic, etc (GitHub)
-Enclosed — Minimalistic web app designed for sending private and secure notes. (Github)
-📂 Deploy your own Information storing and organization system
-Bookstack — platform to create documentation/wiki content built with PHP & Laravel.
-MediaWiki — collaboration and documentation platform with enormous capabilities.
-Dokuwiki — simple wiki that doesn't require a database. (GitHub)
-Outline — fastest wiki and knowledge base for growing teams with markdown support and clean UI. (GitHub)
-Wiki.js — lightweight and extensible wiki made with Node.js. (GitHub)
-Hypothes.is — web annotating system with search, storing, collaboration, sharing and integrations. (GitHub)
-🔑 Deploy your own Password manager
-Bitwarden — easiest and safest way to store, share, and sync sensitive data. (GitHub)
-LessPass — stateless password manager. (GitHub)
-🤥 Deploy your own Read it Later
-Shiori — simple bookmarks manager written intended as a simple clone of Pocket.
-Wallabag — self hostable application for saving web pages.
-Shaark — knowledge storage for web links, notes, pictures and passwords with clean web UI.
-🗞 Deploy your own RSS reader
-Selfoss — multipurpose rss reader, live stream, mashup, aggregation web application.
-FreshRSS — rss aggregator with responsive UI.(GitHub)
-Tiny Tiny RSS — web-based news feed reader and aggregator.
-Miniflux — minimalist and opinionated feed reader.
-🇫🇮 Deploy your own Git server
-GitLab CE — turn-key git hosting solution. (Digital Ocean tutorial)
-Gitolight — git hosting on a server, with very fine-grained access control and many powerful features.
-Gitea — lightweight and powerful git server made with Go, so you can deploy it even on Raspberry Pi. (GitHub)
-Pagure — lightweight, powerful, and flexible git-centered forge with decentralization features.
-Forgejo — lightweight, git-based software forging infrastructure with decentralised features. Base of Codeberg platform.
-🗑 Deploy your own Gist/PasteBin
-Privatebin — minimalist, online pastebin where the server has zero knowledge of pasted data. (GitHub)
-0bin — client side encrypted pastebin that can run without a database. (GitHub)
-Opengist — git-powered pastebin.
-🐵 Deploy your own Mailchimp
-Listmonk — newsletter and mailing list manager with a modern dashboard.
-🥋Deploy your own Kanban board
-Wekan — collaborative Kanban board.
-Kanboard — project management software that focuses on the Kanban methodology. (GitHub)
-Taiga — project management software with a kanban board, sprints, wiki and tickets. (GitHub)
-Phabricator — a collection of web apps which contains bug tracker, kanban board, wiki, chat and everything you need to build software. (GitHub)
-Planka — Kanban board which looks and feels exactly like Trello. (GitHub)
-🛰 Deploy your own GPS tracking system
-OwnTracks — lightweight program for storing and accessing location data published via MQTT or HTTP by the OwnTracks apps.
-µlogger server — web application for real-time collection of geolocation data, tracks viewing and management.
-Dawarich - Self-hosted alternative to Google Location History
-💳 Deploy your own Personal finance tracker
-Firefly III — financial manager to help you keep track of expenses, income, budgets and everything in between. (GitHub)
-Ledger — plain text double-entry accounting with 3rd party UI like Prudent. Entry point to plain text accounting
-Beancount — plain text double-entry accounting with 3rd party web UI like Fava
-ezBookkeeping — a lightweight personal finance app with a user-friendly interface and powerful bookkeeping features. (GitHub)
-🏠 Deploy your own Smart home
-Home Asisstant — home automation hub which can be deployed on Raspberry Pi (GitHub)
-OpenHAB — vendor-neutral, hardware/protocol-agnostic home automation hub (GitHub)
-Home Bridge — lightweight server that emulates the iOS HomeKit API so you can work with smart home devices that do not support the HomeKit protocol. (GitHub)
-🌀 Deploy your own IFTTT
-Activepieces - a no-code open-source business automation tool. (GitHub)
-n8n — node-based Workflow Automation Tool with visual editor. (GitHub)
-Beehive — a flexible event/agent & automation system made with Go.
-Huginn — system for building agents that perform automated tasks for you online. Written in Ruby.
-Kibitzr — tiny server to notify about (almost) anything in the web. (GitHub)
-🔐 Deploy your own Google Authenticator (2FA, OTP)
-2FAuth — a web app to manage your Two-Factor Authentication. (GitHub)
-🎙 Deploy your own Twitch
-Lightspeed — a self-contained OBS → FTL → WebRTC live streaming server.
-🐳 Deploy your own Container Management System
-Portainer — container management tool. It allows anyone to deploy and manage containers without the need to write code. (GitHub)
-Yacht — a web interface for managing docker containers with an emphasis on templating to provide 1 click deployments.
-Pterodactyl — game server management panel. It runs game servers in isolated containers while exposing a beautiful web UI to the users. (Github)
-Umbrel — either a docker image or OS that provides you with the most beautiful web interface to manage containerized web services. (Github)
+# 🔐 VPN
 
-# ⭐ Support
-Star ⭐ this repo, fork 🍴 it, and share 📢 with friends!  
+| Tool | Description |
+|------|-------------|
+| OpenVPN | Full-featured open source VPN solution ([Digital Ocean tutorial](https://www.digitalocean.com)) |
+| dockovpn.io | Stateless OpenVPN docker server, no persistent storage required |
+| WireGuard | Fast, simple, modern VPN, more performant than OpenVPN ([Digital Ocean tutorial](https://www.digitalocean.com)) |
+| Algo VPN | Ansible scripts to deploy personal WireGuard & IPsec VPN |
 
 ---
-streaming`, `photo hosting`, `chat`, `email`
+
+# 🎧 Music Streaming
+
+| Tool | Description |
+|------|-------------|
+| Ampache | Web-based audio/video streaming & file manager |
+| Madsonic | Media library and streamer with jukebox features |
+| Mopidy | Extensible music server |
+| Koel | Simple personal web-based audio streaming ([GitHub](https://github.com)) |
+| Funkwhale | Web-based music library compatible with Airsonic ([GitLab](https://gitlab.com)) |
+| AzuraCast | Web radio management suite with modern UI ([GitHub](https://github.com)) |
+| Black Candy | Music streaming server with web UI + iOS/Android apps |
+| Audiobookshelf | Audiobook & podcast server ([GitHub](https://github.com)) |
+
+---
+
+# 📷 Photo Hosting
+
+| Tool | Description |
+|------|-------------|
+| Immich | High-performance photo & video solution ([GitHub](https://github.com)) |
+| Chevereto | Fast image hosting script to create your own website |
+| PhotoPrism | AI-powered personal photo management ([GitHub](https://github.com)) |
+| Lychee | Upload/manage/share photos like native app ([GitHub](https://github.com)) |
+| Photo-Stream | Simple Jekyll-based self-hosted photo stream |
+| Piwigo | PHP image gallery ([GitHub](https://github.com)) |
+| Pinry | Your own Pinterest with boards & tags ([GitHub](https://github.com)) |
+
+---
+
+# 📚 eBooks Catalog
+
+| Tool | Description |
+|------|-------------|
+| Calibre | E-book manager with server capabilities |
+| COPS | Calibre OPDS and HTML server ([Urown tutorial](https://roll.urown.net)) |
+| Calibre-Web | Web UI for Calibre database |
+
+---
+
+# 📄 Google Docs & Office
+
+| Tool | Description |
+|------|-------------|
+| Collabora | LibreOffice in the cloud with collaboration ([OwnCloud tutorial](https://owncloud.org)) |
+| ONLYOFFICE CE | Private cloud office with collaboration features ([GitHub](https://github.com)) |
+| SeaTable | Airtable-style spreadsheet meets database |
+| Baserow | API-focused Airtable alternative with plugins |
+| Nocodb | Airtable alternative with MySQL/PostgreSQL/SQLite support ([GitHub](https://github.com)) |
+
+---
+
+# 🎬 Media Streaming (Netflix Alternative)
+
+| Tool | Description |
+|------|-------------|
+| Jellyfin | Open-source media system to manage & stream media ([GitHub](https://github.com)) |
+
+---
+
+# 📝 Notes
+
+| Tool | Description |
+|------|-------------|
+| CodiMD | Realtime collaborative Markdown notes |
+| Standard Notes | Secure notes with E2E encryption |
+| TinyList | Google Keep clone |
+| Leanote | Evernote clone ([GitHub](https://github.com)) |
+| Bangle.io | WYSIWYG note taking in Markdown ([GitHub](https://github.com)) |
+| Memos | Memo hub with knowledge management ([GitHub](https://github.com)) |
+
+---
+
+# 🏷 Bookmarks
+
+| Tool | Description |
+|------|-------------|
+| Unmark | Bookmark management ([Tutplus tutorial](https://tutorials.tutsplus.com)) |
+| Bookmarks | Import bookmarks from Delicious/Chrome |
+| xBrowserSync | Secure & anonymous bookmark server ([GitHub](https://github.com)) |
+| Nextcloud Bookmarks | Bookmark app with browser + mobile apps ([GitHub](https://github.com)) |
+| LinkAce | Tag-based bookmark archive ([GitHub](https://github.com)) |
+| Linkding | Simple bookmarks with neat UI |
+| Benotes | Bookmark + note-taking web app |
+| Briefkasten | REST API + OAuth bookmark web app |
+| Hoarder | Bookmark everything with AI tagging ([GitHub](https://github.com)) |
+| Readeck | Modern UI self-hosted bookmarking ([Codeberg](https://codeberg.org)) |
+
+---
+
+# 🔤 URL Shortener
+
+| Tool | Description |
+|------|-------------|
+| Yourls | Your own URL shortener |
+| Kutt | Modern URL shortener with custom domains ([GitHub](https://github.com)) |
+| Delta | File uploader & URL shortener with CLI |
+| Shlink | UI + API + analytics ([GitHub](https://github.com)) |
+
+---
+
+# 🗓 Calendar
+
+| Tool | Description |
+|------|-------------|
+| Radicale | CalDAV & CardDAV server (Python) |
+| Sabre | CalDAV, CardDAV & WebDAV server (PHP) |
+| Calendar Server | Calendar & contacts server by Apple |
+
+---
+
+# 🗄 Cloud Storage
+
+| Tool | Description |
+|------|-------------|
+| OwnCloud | Personal cloud ([tutorial](https://owncloud.org)) |
+| Nextcloud | Enhanced OwnCloud fork with mail, contacts, calendars ([GitHub](https://github.com)) |
+| Syncthing | Continuous file synchronization |
+| MinIO | S3-compatible object storage |
+| Teedy | Lightweight document management ([GitHub](https://github.com)) |
+| Filestash | Turn SFTP/S3/GitHub into web-based file manager ([GitHub](https://github.com)) |
+
+---
+
+# 🕸 DNS
+
+| Tool | Description |
+|------|-------------|
+| Unbound | Validating, recursive, caching DNS resolver ([Urown tutorial](https://roll.urown.net)) |
+
+---
+
+# 🛑 AdBlock
+
+| Tool | Description |
+|------|-------------|
+| Pi-hole | Network-wide ad-blocking ([GitHub](https://github.com)) |
+| AdGuard Home | Network-wide DNS resolver + ad-blocking ([GitHub](https://github.com)) |
+
+---
+
+# ✉️ Email Servers
+
+| Tool | Description |
+|------|-------------|
+| Mailu | Dockerized secured mail suite |
+| Mailcow | Dockerized mail server suite ([GitHub](https://github.com)) |
+| iRedMail | Mail server suite with multiple options |
+| Mail-in-a-Box | Postfix/Dovecot/Nextcloud/Spam setup ([GitHub](https://github.com)) |
+| Roundcube | Browser-based IMAP client |
+| Postal | Full-featured mail server with web UI ([GitHub](https://github.com)) |
+| Maddy | Composable all-in-one mail server in Golang ([GitHub](https://github.com)) |
+
+---
+
+# 💬 Chat Servers
+
+| Tool | Description |
+|------|-------------|
+| Prosody IM | Modern XMPP communication server ([Urown tutorial](https://roll.urown.net)) |
+| Zulip | Team chat with email threading ([GitHub](https://github.com)) |
+| Rocket.Chat | Web chat platform ([GitHub](https://github.com)) |
+| Mattermost | Private cloud Slack alternative ([GitHub](https://github.com)) |
+| Mumble | Low-latency voice chat ([GitHub](https://github.com)) |
+| Matrix | Open federated IM & VoIP ([GitHub](https://github.com)) |
+| Riot | Multi-platform chat client (Matrix based) |
+
+---
+
+# 📹 Video Calls
+
+| Tool | Description |
+|------|-------------|
+| Jitsi | Open-source video conferencing ([GitHub](https://github.com)) |
+| Nextcloud Talk | Web & mobile video calls + screen sharing ([GitHub](https://github.com)) |
+
+---
+
+# ✍️ Publishing Systems
+
+| Tool | Description |
+|------|-------------|
+| Jekyll | Static websites & blogs ([GitHub](https://github.com)) |
+| Hugo | Fast static site generator |
+| Ghost | Headless Node.js CMS |
+| Gatsby | React-based static site generator ([GitHub](https://github.com)) |
+
+---
+
+# 🗣 Comments System
+
+| Tool | Description |
+|------|-------------|
+| Isso | Lightweight Disqus replacement ([GitHub](https://github.com)) |
+| Remark42 | Self-hosted commenting system ([GitHub](https://github.com)) |
+| Staticman | Comment server for static sites ([GitHub](https://github.com)) |
+
+---
+
+# 📈 Web Analytics
+
+| Tool | Description |
+|------|-------------|
+| Ackee | Node.js analytics, privacy-focused |
+| Matomo | Open analytics platform |
+| GoAccess | Terminal & browser web log analyzer ([GitHub](https://github.com)) |
+| Fathom Lite | Simple privacy-focused analytics |
+| Shynet | Privacy-friendly web analytics |
+| GoatCounter | Analytics without tracking |
+
+---
+
+# 🔍 Google Search
+
+| Tool | Description |
+|------|-------------|
+| Whoogle | Self-hosted Google search proxy |
+
+---
+
+# 📦 Cloud Backup
+
+| Tool | Description |
+|------|-------------|
+| Duplicity | Encrypted tar backups |
+| Borg | Deduplicated archiver |
+| ElkarBackup | RSYNC/RSnapshot backup solution |
+| Restic | Encrypted, deduplicated backup CLI ([GitHub](https://github.com)) |
+
+---
+
+# 🔗 Web Archive
+
+| Tool | Description |
+|------|-------------|
+| ArchiveBox | Self-hosted web archive ([GitHub](https://github.com)) |
+| Archivy | Knowledge repository ([GitHub](https://github.com)) |
+
+---
+
+# 🍕 File Sharing
+
+| Tool | Description |
+|------|-------------|
+| Send | Private encrypted file sharing |
+| FilePizza | Peer-to-peer browser transfers |
+| Lufi | E2E encrypted file sharing |
+| Linx | Simple file/code/media sharing website |
+| XBackBone | PHP file manager with ShareX/uPic support ([GitHub](https://github.com)) |
+| Enclosed | Minimal web app for secure notes ([GitHub](https://github.com)) |
+
+---
+
+# 📂 Information & Wiki
+
+| Tool | Description |
+|------|-------------|
+| Bookstack | Documentation/wiki platform (PHP & Laravel) |
+| MediaWiki | Collaboration & documentation platform |
+| Dokuwiki | Simple wiki without database ([GitHub](https://github.com)) |
+| Outline | Markdown-based knowledge base ([GitHub](https://github.com)) |
+| Wiki.js | Node.js wiki ([GitHub](https://github.com)) |
+| Hypothes.is | Web annotating & collaboration ([GitHub](https://github.com)) |
+
+---
+
+# 🔑 Password Managers
+
+| Tool | Description |
+|------|-------------|
+| Bitwarden | Secure password storage ([GitHub](https://github.com)) |
+| LessPass | Stateless password manager ([GitHub](https://github.com)) |
+
+---
+
+# 🤥 Read It Later
+
+| Tool | Description |
+|------|-------------|
+| Shiori | Pocket clone bookmark manager |
+| Wallabag | Self-hosted web page saver |
+| Shaark | Web links, notes, passwords storage |
+
+---
+
+# 🗞 RSS Reader
+
+| Tool | Description |
+|------|-------------|
+| Selfoss | Multipurpose RSS reader |
+| FreshRSS | Responsive RSS aggregator ([GitHub](https://github.com)) |
+| Tiny Tiny RSS | Web-based feed reader |
+| Miniflux | Minimalist feed reader |
+
+---
+
+# 🇫🇮 Git Servers
+
+| Tool | Description |
+|------|-------------|
+| GitLab CE | Full Git hosting ([Digital Ocean tutorial](https://www.digitalocean.com)) |
+| Gitolight | Git hosting with fine-grained access control |
+| Gitea | Lightweight git server in Go ([GitHub](https://github.com)) |
+| Pagure | Lightweight git forge |
+| Forgejo | Decentralized git forge (Codeberg base) |
+
+---
+
+# 🗑 Gist / Pastebin
+
+| Tool | Description |
+|------|-------------|
+| Privatebin | Encrypted online pastebin ([GitHub](https://github.com)) |
+| 0bin | Client-side encrypted pastebin ([GitHub](https://github.com)) |
+| Opengist | Git-powered pastebin |
+
+---
+
+# 🐵 Mailchimp Alternative
+
+| Tool | Description |
+|------|-------------|
+| Listmonk | Newsletter & mailing list manager |
+
+---
+
+# 🥋 Kanban Boards
+
+| Tool | Description |
+|------|-------------|
+| Wekan | Collaborative kanban board |
+| Kanboard | Kanban-focused project management ([GitHub](https://github.com)) |
+| Taiga | Kanban + sprints + wiki ([GitHub](https://github.com)) |
+| Phabricator | Bug tracker + kanban + wiki ([GitHub](https://github.com)) |
+| Planka | Trello-like Kanban ([GitHub](https://github.com)) |
+
+---
+
+# 🛰 GPS Tracking
+
+| Tool | Description |
+|------|-------------|
+| OwnTracks | Location tracker via MQTT/HTTP |
+| µlogger | Real-time geolocation collection |
+| Dawarich | Google Location History alternative |
+
+---
+
+# 💳 Personal Finance
+
+| Tool | Description |
+|------|-------------|
+| Firefly III | Expense & budget manager ([GitHub](https://github.com)) |
+| Ledger | Plain-text double-entry accounting |
+| Beancount | Plain-text double-entry accounting ([Web UI](https://beancount.github.io/fava/)) |
+| ezBookkeeping | Lightweight personal finance app ([GitHub](https://github.com)) |
+
+---
+
+# 🏠 Smart Home
+
+| Tool | Description |
+|------|-------------|
+| Home Assistant | Home automation hub ([GitHub](https://github.com)) |
+| OpenHAB | Vendor-neutral automation hub ([GitHub](https://github.com)) |
+| Home Bridge | Emulate iOS HomeKit for unsupported devices ([GitHub](https://github.com)) |
+
+---
+
+# 🌀 IFTTT Automation
+
+| Tool | Description |
+|------|-------------|
+| Activepieces | No-code automation ([GitHub](https://github.com)) |
+| n8n | Node-based workflow automation ([GitHub](https://github.com)) |
+| Beehive | Event/agent & automation system |
+| Huginn | Build agents for online automation (Ruby) |
+| Kibitzr | Tiny notification server ([GitHub](https://github.com)) |
+
+---
+
+# 🔐 2FA / Google Authenticator
+
+| Tool | Description |
+|------|-------------|
+| 2FAuth | Two-factor authentication manager ([GitHub](https://github.com)) |
+
+---
+
+# 🎙 Twitch / Streaming
+
+| Tool | Description |
+|------|-------------|
+| Lightspeed | OBS → FTL → WebRTC self-contained live streaming server |
+
+---
+
+# 🐳 Container Management
+
+| Tool | Description |
+|------|-------------|
+| Portainer | Docker container management ([GitHub](https://github.com)) |
+| Yacht | Web interface for docker containers |
+| Pterodactyl | Game server management panel ([GitHub](https://github.com)) |
+| Umbrel | Docker image/OS for containerized web services ([GitHub](https://github.com)) |
+
+---
+
+# 🤝 Contributing
+
+Contributions welcome:  
+
+1. Fork  
+2. Create a branch  
+3. Commit changes  
+4. Pull Request  
+
+---
